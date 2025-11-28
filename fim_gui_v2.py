@@ -80,7 +80,7 @@ class FIMGUIv2:
     def build_home_tab(self):
         ttk.Label(self.home_tab, text="Welcome to File Integrity Monitoring (FIM) Tool",
                   font=("Helvetica", 16)).pack(pady=20)
-        ttk.Label(self.home_tab, text="Built by Waaris 🔐", font=("Helvetica", 12)).pack(pady=10)
+        ttk.Label(self.home_tab, text="Built by Vayankar Coder Prajwal 🔐", font=("Helvetica", 12)).pack(pady=10)
 
     def build_monitor_tab(self):
         label = tk.Label(self.monitor_tab, text="Choose a folder to monitor:")

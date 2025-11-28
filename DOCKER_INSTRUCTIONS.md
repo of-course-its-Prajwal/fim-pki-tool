@@ -8,7 +8,7 @@ This tool is designed to run as a container with a GUI-based dashboard for File 
 ## 🐳 Pull the Docker Image
 
 ```bash
-docker pull mdwaaris/fim-tool:latest
+docker pull praz09/fim-tool:latest
 ```
 
 ---
@@ -22,7 +22,8 @@ xhost +local:docker  # Allow Docker to access your display
 docker run -it \
     --env DISPLAY=$DISPLAY \
     --volume /tmp/.X11-unix:/tmp/.X11-unix \
-    mdwaaris/fim-tool
+    praz09/fim-tool
+
 ```
 
 ---
@@ -44,5 +45,6 @@ docker run -it \
     --env DISPLAY=$DISPLAY \
     --volume /tmp/.X11-unix:/tmp/.X11-unix \
     --volume ~/fim_logs:/fim_pki_tool/logs \
-    mdwaaris/fim-tool
+    praz09/fim-tool
+
 ```
